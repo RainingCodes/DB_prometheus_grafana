@@ -24,14 +24,14 @@
   
 ### prometheus에서 node_exporter & mysql exporter 연동
 * 참고 사이트 : http://mysqldbadmtech.blogspot.com/2016/11/pmm-060-pmm-client-mysqld-exporter.html
-* <img src="img/img1.JPG" width="500px" height="400px" alt="연동 이미지"></img><br/>
+* <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img1.JPG" width="500px" height="400px" alt="연동 이미지"></img><br/>
 
 ## 4. grafana
 * 다운로드 사이트 : https://grafana.com/grafana/download
 * graphana-enterprise_8.5.3_linux-amd64 다운받음
 * graphana 실행 관련 참고 사이트 : https://ssup2.github.io/record/Grafana_%EC%84%A4%EC%B9%98_%EC%8B%A4%ED%96%89_Ubuntu_18.04/
 * admin / admin으로 설정되어 있는 id pw에서 pw 변경함
-*  <img src="img/img2.JPG" width="500px" height="750px" alt="연동 이미지"></img><br/>
+*  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img2.JPG" width="500px" height="750px" alt="연동 이미지"></img><br/>
 
 
 ### mysql user1으로 TESTDB 접속
