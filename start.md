@@ -49,15 +49,18 @@
       mysql> SHOW GRANTS FOR user1@localhost;
     실행화면
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img5.JPG?raw=true" width="4000px" height="300px" alt="db상태"></img>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img5.JPG?raw=true" width="4000px" height="300px" alt="권한확인"></img>
 
+    ### 5. user1 계정 접속(비밀번호 입력 없이 접속됨)
     ```
     $ mysql -u user1 -p
     ```
-
-* 계정 : user1@localhost
-* table name : TESTDB
-* mysql --version : mysql Ver 8.0.29-0ubuntu0.20.04.3 for Linux on x86_64 ((Ubuntu))
+    
+    ### 6. mysql version 확인
+      $ mysql --version
+    실행화면
+    <br>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img6.JPG?raw=true" width="4000px" height="300px" alt="버전확인"></img>
 
 
 ## 2. prometheus
