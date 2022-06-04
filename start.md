@@ -135,7 +135,7 @@
   prometheus로 실행 확인
   localhost:9090에 접속 후 Status>Targets
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img8.JPG?raw=true" width="700px" height="400px" alt="node_exporter 확인"></img>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img8.JPG?raw=true" width="4000px" height="100px" alt="node_exporter 확인"></img>
   
   node 관련 실행 후 graph 확인
   <br>
