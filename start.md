@@ -29,14 +29,25 @@
       $ sudo mysql -u root -p
       
     실행 화면  
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img3.JPG?raw=true" width="700px" height="400px" alt="연동 이미지"></img>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img3.JPG?raw=true" width="700px" height="400px" alt="mysql 실행"></img>
     
     ### 2. TESTDB 생성
       mysql> CREATE DATABASE TESTDB;
       mysql> SHOW DATABASES;
-    
-    ### 3. user
+    실행 화면
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img4.JPG?raw=true" width="700px" height="400px" alt="db상태"></img>
 
+    ### 3. user1 계정 생성 (id를 user1으로 정함)
+      mysql> CREATE USER 'user1'@'localhost' IDENTIFIED BY '{본인 지정 비번}';
+      mysql> FLUSH PRIVILEGES;
+      mysql> SELECT User, Host, authentication_string FROM mysql.user; 
+  
+    ### 4. user1 계정 권한 부여 (id를 user1으로 정함)
+      mysql> GRANT ALL PRIVILEGES ON TESTDB.* FOR 'user1'@'localhost';
+      mysql> FLUSH PRIVILEGES;
+      mysql> SHOW GRANTS FOR user1@localhost;
+    실행화면
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img5.JPG?raw=true" width="700px" height="400px" alt="db상태"></img>
 
     ```
     $ mysql -u user1 -p
