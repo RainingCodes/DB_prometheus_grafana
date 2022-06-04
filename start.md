@@ -171,7 +171,7 @@
   prometheus로 실행 확인
   localhost:9090에 접속 후 Status>Targets
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img10.JPG?raw=true" width="4000px" height="100px" alt="mysqld_exporter 확인"></img>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img10.JPG?raw=true" width="4000px" height="300px" alt="mysqld_exporter 확인"></img>
   
 ### prometheus에서 node_exporter & mysql exporter 연동
 * 참고 사이트 : http://mysqldbadmtech.blogspot.com/2016/11/pmm-060-pmm-client-mysqld-exporter.html
@@ -206,8 +206,8 @@
       <br> --> pw 변경하도록 안내
   
     ### 3. datasource 추가
-      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img12.JPG" width="500px" height="400px" alt="grafana 로그인 후 화면"></img><br/>
-      
+     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img12.JPG" width="500px" height="400px" alt="grafana 로그인 후 화면"></img><br/>
+
 
 
 *  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img2.JPG" width="500px" height="750px" alt="연동 이미지"></img><br/>
