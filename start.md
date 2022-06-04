@@ -60,7 +60,7 @@
       $ mysql --version
     실행화면
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img6.JPG?raw=true" width="4000px" height="300px" alt="버전확인"></img>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img6.JPG?raw=true" width="700px" height="100px" alt="버전확인"></img>
 
 
 ## 2. prometheus
