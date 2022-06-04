@@ -1,10 +1,52 @@
 # 설치 해야하는 목록
 
-## 1. mysql
+# 1. mysql
 * 참고 사이트 : https://velog.io/@seungsang00/Ubuntu-%EC%9A%B0%EB%B6%84%ED%88%AC%EC%97%90-MySQL-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+  
+  ## 설치 과정
+    ### ubuntu update
+    ```
+    $ sudo apt-get update
+    ```
+  ## mysql server 설치 (비밀번호 입력은 전부 생략)
+    ```
+    $ sudo apt-get install mysql-server
+    ```
+  ## 외부 접속 기능 허용
+    ```
+    $ sudo ufw allow mysql
+    ```
+  ## mysql 접속 (수동)
+    ```
+    $ sudo systemctl start mysql
+    ```
+  ## mysql 자동 접속 설정
+    ```
+    $ sudo systemctl enable mysql
+    ```
+  ## mysql 실행 
+    ### 1. root 계정으로 접속(root 계정 비밀번호 입력 필요)
+      $ sudo mysql -u root -p
+      
+      실행 화면
+    
+      
+    
+    ### 2. TESTDB 생성
+      mysql> CREATE DATABASE TESTDB;
+      mysql> SHOW DATABASES;
+    
+    ### 3. user
+
+
+    ```
+    $ mysql -u user1 -p
+    ```
+
 * 계정 : user1@localhost
 * table name : TESTDB
 * mysql --version : mysql Ver 8.0.29-0ubuntu0.20.04.3 for Linux on x86_64 ((Ubuntu))
+
 
 ## 2. prometheus
 * 참고 사이트 : https://blog.naver.com/PostView.naver?blogId=bokmail83&logNo=221487998797&parentCategoryNo=&categoryNo=39&viewDate=&isShowPopularPosts=true&from=search
