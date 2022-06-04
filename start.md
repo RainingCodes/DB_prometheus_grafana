@@ -29,7 +29,7 @@
       $ sudo mysql -u root -p
       
       실행 화면
-    
+      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img3.JPG?raw=true" width="500px" height="400px" alt="연동 이미지"></img>
       
     
     ### 2. TESTDB 생성
