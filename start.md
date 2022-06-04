@@ -178,6 +178,7 @@
 * <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img1.JPG" width="500px" height="400px" alt="연동 이미지"></img><br/>
 
 # 4. grafana
+* 참고 사이트 : https://blog.naver.com/PostView.naver?blogId=bokmail83&logNo=221489127312&parentCategoryNo=&categoryNo=39&viewDate=&isShowPopularPosts=true&from=search
 * 다운로드 사이트 : https://grafana.com/grafana/download 
 * graphana-enterprise_8.5.4_linux-amd64.tar.gz 다운받아 압축 품 
   ```
@@ -188,16 +189,27 @@
 
 
   ## 실행방법  
-  ```
-  $ cd ~/grafana-8.5.4/bin
-  $ ./grafana-server
-  ```
+    ### 1. grafana server 실행
+
+      ```
+      $ cd ~/grafana-8.5.4/bin
+      $ ./grafana-server
+      ```
+    
+    ### 2. localhost:3000 접속
+      <br>
+      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="600px" alt="prometheus 접속"></img>
+      <br>
+      최초 접속시 
+      <br>id : admin
+      <br>pw : admin
+      <br> --> pw 변경하도록 안내
   
-  localhost:3000 접속
-  <br>
-  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="600px" alt="prometheus 접속"></img>
-  <br>
-  admin / admin으로 설정되어 있는 id pw에서 pw 변경함
+    ### 3. datasource 추가
+      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img12.JPG" width="500px" height="400px" alt="grafana 로그인 후 화면"></img><br/>
+      
+
+
 *  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img2.JPG" width="500px" height="750px" alt="연동 이미지"></img><br/>
 
 
