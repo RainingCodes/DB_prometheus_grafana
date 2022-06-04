@@ -226,18 +226,14 @@
 
     Create > import 클릭
     <br>
-<<<<<<< HEAD
-     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img14.JPG" width="500px" height="400px" alt="grafana import1"></img><br/>
-=======
      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img14.JPG" width="500px" height="300px" alt="grafana import1"></img><br/>
->>>>>>> 3ab4373701f174f030dc3379667282a16efe614c
     id 7369 입력 후 Load 버튼 클릭
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img15.JPG" width="500px" height="500px" alt="grafana import1"></img><br/>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img15.JPG" width="500px" height="500px" alt="grafana import2"></img><br/>
 
     아래처럼 설정
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img16.JPG" width="500px" height="500px" alt="grafana import1"></img><br/>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img16.JPG" width="500px" height="500px" alt="grafana impor3"></img><br/>
 
 
 
