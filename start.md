@@ -205,8 +205,15 @@
       <br>pw : admin
       <br> --> pw 변경하도록 안내
   
-    ### 3. datasource 추가
+    ### 3. Data Source 설정
+    
+    Configuration > Data Sources 클릭
+    <br>
      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img12.JPG" width="500px" height="400px" alt="grafana 로그인 후 화면"></img><br/>
+    Add data source 클릭
+    <br>
+     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img13.JPG" width="500px" height="400px" alt="grafana add data source"></img><br/>
+  
 
 
 
