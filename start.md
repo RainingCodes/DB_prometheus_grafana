@@ -194,8 +194,10 @@
   ```
   
   localhost:3000 접속
-  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="400px" alt="prometheus 접속"></img>
-* admin / admin으로 설정되어 있는 id pw에서 pw 변경함
+  <br>
+  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="600px" alt="prometheus 접속"></img>
+  <br>
+  admin / admin으로 설정되어 있는 id pw에서 pw 변경함
 *  <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img2.JPG" width="500px" height="750px" alt="연동 이미지"></img><br/>
 
 
