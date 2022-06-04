@@ -65,7 +65,54 @@
 
 ## 2. prometheus
 * 참고 사이트 : https://blog.naver.com/PostView.naver?blogId=bokmail83&logNo=221487998797&parentCategoryNo=&categoryNo=39&viewDate=&isShowPopularPosts=true&from=search
-* prometheus-2.8.0.linux-am64 다운받음
+* https://prometheus.io/download/에서 prometheus-2.8.0.linux-am64.tar.gz 다운받음
+  ## 설정 과정
+    ### prometheus 설정 파일 prometheus.yml 확인
+    ```
+    $ cd prometheus-2.8.0.linux-amd64
+    $ vi prometheus.yml
+    ```
+    ### prometheus.yml
+
+      # my global config
+      global:
+        scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+        evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+        # scrape_timeout is set to the global default (10s).
+      
+      # Alertmanager configuration
+      alerting:
+        alertmanagers:
+        - static_configs:
+          - targets:
+            # - alertmanager:9093
+      
+      # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+      rule_files:
+        # - "first_rules.yml"
+        # - "second_rules.yml"
+      
+      # A scrape configuration containing exactly one endpoint to scrape:
+      # Here it's Prometheus itself.
+      scrape_configs:
+        # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+        - job_name: 'prometheus'
+
+          # metrics_path defaults to '/metrics'
+          # scheme defaults to 'http'.
+
+          static_configs:
+          - targets: ['localhost:9090']
+
+    
+    ### prometheus 실행 (실행 위치 ~/prometheus-2.8.0.linux-amd64)
+      $ ./prometheus
+      
+      웹브라우저로 localhost:9090 접속
+      <br>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img7.JPG?raw=true" width="700px" height="100px" alt="prometheus 접속"></img>
+
+  
 
 ## 3. node_exporter
 * 2번 참고 사이트 + https://wooseok-uzi.tistory.com/3
