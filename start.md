@@ -63,9 +63,9 @@
     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img6.JPG?raw=true" width="700px" height="100px" alt="버전확인"></img>
 
 
-## 2. prometheus
+# 2. prometheus
 * 참고 사이트 : https://blog.naver.com/PostView.naver?blogId=bokmail83&logNo=221487998797&parentCategoryNo=&categoryNo=39&viewDate=&isShowPopularPosts=true&from=search
-* https://prometheus.io/download/에서 prometheus-2.8.0.linux-am64.tar.gz 다운받음
+* https://prometheus.io/download/ 에서 prometheus-2.8.0.linux-am64.tar.gz 다운받음
   ## 설정 과정
     ### prometheus 설정 파일 prometheus.yml 확인
     ```
@@ -108,17 +108,39 @@
     ### prometheus 실행 (실행 위치 ~/prometheus-2.8.0.linux-amd64)
       $ ./prometheus
       
-      웹브라우저로 localhost:9090 접속
-      <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img7.JPG?raw=true" width="700px" height="100px" alt="prometheus 접속"></img>
+    웹브라우저로 localhost:9090 접속
+    <br>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img7.JPG?raw=true" width="700px" height="400px" alt="prometheus 접속"></img>
 
   
 
-## 3. node_exporter
+# 3. node_exporter
 * 2번 참고 사이트 + https://wooseok-uzi.tistory.com/3
 * 서버 시스템/상태를 확인할 수 있음
-* node_exporter-1.3.1.linux-amd64 다운받음
+* https://prometheus.io/download/#node_exporter 에서 node_exporter-1.3.1.linux-amd64.tar.gz 다운받음
 * 기본 포트 : 9100
+
+  ## prometheus 서버에 설정하기
+    ### prometheus.yml 파일의 scrape_configs에 아래 내용 추가
+      - job_name : 'node_exporter'
+        scrape_interval : 5s
+        static_configs:
+        - targets: ['localhost:9100']
+        - 
+  ## 실행방법
+    ```
+    $ cd node_exporter-1.3.1.linux-amd64/
+    $ ./node_exporter
+    ```
+  prometheus로 실행 확인
+  localhost:9090에 접속 후 Status>Targets
+    <br>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img8.JPG?raw=true" width="700px" height="400px" alt="node_exporter 확인"></img>
+  
+  node 관련 실행 후 graph 확인
+  <br>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img9.JPG?raw=true" width="700px" height="400px" alt="node_exporter graph 예시"></img>
+
 
 ## 3. mysql exporter
 * 참고 사이트 : 3번의 두번째 사이트
