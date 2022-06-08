@@ -191,16 +191,15 @@
   ## 실행방법  
     ### 1. grafana server 실행
 
-      ```
       $ cd ~/grafana-8.5.4/bin
       $ ./grafana-server
-      ```
+
     
     ### 2. localhost:3000 접속
+
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="600px" alt="prometheus 접속"></img>
       <br>
-      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img11.JPG?raw=true" width="700px" height="600px" alt="prometheus 접속"></img>
-      <br>
-      최초 접속시 
+        최초 접속시 
       <br>id : admin
       <br>pw : admin
       <br> --> pw 변경하도록 안내
@@ -238,5 +237,17 @@
 
 
 
-### mysql user1으로 TESTDB 접속
-* mysql -u user1 -p TESTDB
+## mysql 실행
+  ### mysql user1으로 접속
+  ```
+  $ mysql -u user1 -p TESTDB
+  ```
+  ### TESTDB 사용 및 간단한 table 만들기 실행
+  ```
+  mysql> use TESTDB
+  mysql> 
+  ```
+
+  connection error 시
+  https://dongle94.github.io/ubuntu/ubuntu-check-ip/
+  참고해서 설정할 것
