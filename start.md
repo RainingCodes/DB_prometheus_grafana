@@ -276,3 +276,9 @@ $sudo snap connect mysql-workbench-community:password-manager-service :password-
 실행 후 그래프의 변화
 <br>
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img18.JPG" width="500px" height="500px" alt="grafana dashboard"></img><br/>
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img19.JPG" width="500px" height="500px" alt="grafana dashboard2"></img><br/>
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img20.JPG" width="500px" height="500px" alt="grafana dashboard3"></img><br/>
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img21.JPG" width="500px" height="500px" alt="grafana dashboard4"></img><br/>
