@@ -248,6 +248,8 @@
 
 
 
+
+
 ## mysql 실행
   ### mysql user1으로 접속
   ```
@@ -258,3 +260,19 @@
   mysql> use TESTDB
   mysql> 
   ``` 
+
+
+## mysql workbench 설치
+ubuntu version에 따라 설치 방법이 다름, ubuntu 최신 버전이라 사이트를 참고해 아래 명령어를 실행 (https://askubuntu.com/questions/1127179/e-unable-to-locate-package-mysql-workbench-community)
+```
+$ sudo snap install mysql-workbench-community
+```
+
+접속을 위해 해야 하는 것 (https://codepulse.tistory.com/152)
+```
+$sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
+```
+접속 후 sql 실행(데이터베이스개론 수업 용 sql 사용)
+실행 후 그래프의 변화
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img18.JPG" width="500px" height="500px" alt="grafana dashboard"></img><br/>
