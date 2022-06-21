@@ -125,8 +125,16 @@
       - job_name : 'node_exporter'
         scrape_interval : 5s
         static_configs:
-        - targets: ['localhost:9100']
-        - 
+      - targets: ['[본인 컴퓨터 ip]:9100']
+
+    ### ip 주소 찾는 방법
+    참고 사이트 : 
+    https://ko.wikihow.com/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-IP-%EC%A3%BC%EC%86%8C-%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+    ```
+     $ ifconfig
+    ```
+
   ## 실행방법
     ```
     $ cd node_exporter-1.3.1.linux-amd64/
@@ -161,7 +169,7 @@
       - job_name: 'mysql'
         scrape_interval : 5s
         static_configs:
-        - targets: ['localhost:9104']
+      - targets: ['[본인 컴퓨터 ip]:9104']
 
   ## 실행방법
     ```
@@ -232,7 +240,10 @@
 
     아래처럼 설정
     <br>
-    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img16.JPG" width="500px" height="500px" alt="grafana impor3"></img><br/>
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img16.JPG" width="500px" height="500px" alt="grafana import3"></img><br/>
+
+    실행화면
+    <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img17.JPG" width="500px" height="500px" alt="grafana import4"></img><br/>
 
 
 
