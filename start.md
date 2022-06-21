@@ -128,11 +128,10 @@
       - targets: ['[본인 컴퓨터 ip]:9100']
 
     ### ip 주소 찾는 방법
-    참고 사이트 : 
-    https://ko.wikihow.com/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-IP-%EC%A3%BC%EC%86%8C-%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
-
+    - 참고 사이트 : https://dongle94.github.io/ubuntu/ubuntu-check-ip/
+    - https://goldenzaru.tistory.com/44 이 사이트와 동일한 에러가 발생해 ip 주소로 설정함
     ```
-     $ ifconfig
+     $ hostname -i
     ```
 
   ## 실행방법
@@ -243,6 +242,7 @@
     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img16.JPG" width="500px" height="500px" alt="grafana import3"></img><br/>
 
     실행화면
+    <br>
     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img17.JPG" width="500px" height="500px" alt="grafana import4"></img><br/>
 
 
@@ -257,8 +257,4 @@
   ```
   mysql> use TESTDB
   mysql> 
-  ```
-
-  connection error 시
-  https://dongle94.github.io/ubuntu/ubuntu-check-ip/
-  참고해서 설정할 것
+  ``` 
