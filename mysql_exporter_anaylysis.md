@@ -17,6 +17,25 @@ func main() {
     fmt.Println("Azure for", name)
 }
 ```
-실행 사진
+ 실행 사진
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="2000px" height="500px" alt="sample 실행 화면"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="2500px" height="300px" alt="sample 실행 화면"></img><br/>
+
+ ## custom exporter
+  * 참고 사이트 : https://gywn.net/2021/07/make-own-query-exporter-with-go/
+
+ ### 1. 빈 exporter
+
+<a></a>
+
+실행시키기 위해 필요한 package 설치
+```
+go get github.com/prometheus/client_golang/prometheus
+go get github.com/prometheus/client_golang/prometheus/promauto
+go get github.com/prometheus/client_golang/prometheus/promhttp
+go get github.com/prometheus/common/version
+go get github.com/sirupsen/logrus
+```
+실행 화면
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img23.JPG" width="2500px" height="300px" alt="빈 exporter 실행 화면"></img><br/>
