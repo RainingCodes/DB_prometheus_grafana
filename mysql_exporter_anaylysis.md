@@ -19,4 +19,4 @@ func main() {
 ```
 실행 사진
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="500px" height="500px" alt="sample 실행 화면"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="2000px" height="500px" alt="sample 실행 화면"></img><br/>
