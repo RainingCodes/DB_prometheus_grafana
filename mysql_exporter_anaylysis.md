@@ -20,7 +20,7 @@ func main() {
 ```
  실행 사진
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="300px" height="300px" alt="sample 실행 화면"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img22.JPG" width="300px" height="150px" alt="sample 실행 화면"></img><br/>
 
  ## custom exporter
   * 참고 사이트 : https://gywn.net/2021/07/make-own-query-exporter-with-go/
@@ -84,10 +84,7 @@ go 1.13
 $ go mod vendor
 ```
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img23.JPG" width="300px" height="500px" alt="vendor"></img><br/>
-
-<br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img24.JPG" width="300px" height="500px" alt="get"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img23.JPG" width="400px" height="500px" alt="vendor"></img><br/>
 
 실행
 
@@ -97,10 +94,10 @@ $ go run main.go
 
 실행 화면
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img25.JPG" width="300px" height="500px" alt="실행"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img25.JPG" width="500px" height="300px" alt="실행"></img><br/>
 다른 터미널로 수집된 정보 확인
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img26.JPG" width="300px" height="500px" alt="실행2"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img26.JPG" width="800px" height="500px" alt="실행2"></img><br/>
 
 
  ### 2. 호스트별 커넥션 수, 유저별 커넥션 쿼리 작성
@@ -230,14 +227,14 @@ $ go run main.go
 ```
 
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img27.JPG" width="300px" height="500px" alt="실행3"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img27.JPG" width="800px" height="300px" alt="실행3"></img><br/>
 
 ~/prometheus-2.8.0.linux-amd64 위치에 있는 터미널
 ```
 $ ./prometheus
 ```
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img28.JPG" width="300px" height="500px" alt="실행4"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img28.JPG" width="800px" height="500px" alt="실행4"></img><br/>
 
 ### 3. Collector 작성
 
@@ -429,7 +426,7 @@ $ ./prometheus
 ```
 실행 화면 (localhost:9090 접속 > status > targets 확인하면 볼 수 있음)
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img29.JPG" width="300px" height="500px" alt="실행5"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img29.JPG" width="800px" height="300px" alt="실행5"></img><br/>
 
 
  ### 4. mutex instances 갯수 세는 쿼리 포함하도록 변경
@@ -452,5 +449,5 @@ $ ./prometheus
 ```
 실행 화면 (localhost:9090 접속 > status > targets 확인하면 볼 수 있음)
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img30.JPG" width="300px" height="500px" alt="실행6"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img30.JPG" width="400px" height="500px" alt="실행6"></img><br/>
 
