@@ -1,8 +1,4 @@
-# prometheus > mysql_exporter
- * https://github.com/prometheus/mysqld_exporter
-
-
- ## go 언어 설치 (1.13 version이 설치됨)
+## go 언어 설치 (1.13 version이 설치됨)
 ```
 $ sudo apt install golang-go
 ```
