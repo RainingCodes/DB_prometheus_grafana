@@ -69,7 +69,7 @@ import java.sql.*;
 
 실행결과
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img35.JPG" width="500px" height="500px" alt="java"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img33.JPG" width="500px" height="500px" alt="java"></img><br/>
 
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img36.JPG" width="500px" height="500px" alt="mysql"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img34.JPG" width="500px" height="500px" alt="mysql"></img><br/>
