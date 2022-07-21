@@ -2,7 +2,7 @@
 실습실 컴퓨터 3대 정도에 이용 <br>
 목표하고자 하는 환경
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img35.JPG" width="500px" height="500px" alt="goal"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img35.jpg" width="500px" height="500px" alt="goal"></img><br/>
 
 ## 1-1. ubuntu로 부팅하기
 참고 사이트 : https://generalthird.tistory.com/16 <br>
