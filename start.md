@@ -44,7 +44,7 @@
       mysql> SELECT User, Host, authentication_string FROM mysql.user; 
   
     ### 4. user1 계정 권한 부여 (id를 user1으로 정함)
-      mysql> GRANT ALL PRIVILEGES ON TESTDB.* FOR 'user1'@'localhost';
+      mysql> GRANT ALL PRIVILEGES ON TESTDB.* TO 'user1'@'localhost';
       mysql> FLUSH PRIVILEGES;
       mysql> SHOW GRANTS FOR user1@localhost;
     실행화면
