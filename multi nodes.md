@@ -19,7 +19,7 @@ http://rufus.akeo.ie/ 에 접속해 Rufus 3.19를 다운
 
 ## 1-2. 각 노드 환경 setting 하기
 start.md 파일을 참고하여 mysql, prometheus, node_exporter, mysql_exporter 을 설치함
-한 노드[노드1]에서 node_exporter, mysql_exporter를 실행함
+한 노드[노드2]에서 node_exporter, mysql_exporter를 실행함
 
 ## 1-3. 노드끼리 통신하기
 참고 사이트 : https://server-engineer.tistory.com/840
@@ -33,6 +33,9 @@ LISTEN 중인 포트 확인(node_exporter, mysql_exporter가 실행중임)
 ```
 $ netstat -nap | grep LISTEN
 ```
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img38.JPG" width="700px" height="500px" alt="listen"></img><br/>
+
 포트 열기
 ```
 $ sudo iptables -I input 1 -p tcp --dport 9100 -j ACCEPT
@@ -43,15 +46,20 @@ $ sudo iptables -I input 1 -p tcp --dport 9104 -j ACCEPT
 ```
 $ sudo iptables -L -v
 ```
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img39.JPG" width="700px" height="500px" alt="port"></img><br/>
 
-[노드1] 의 ip 주소 확인
+
+[노드2] 의 ip 주소 확인
 ```
 $ hostname -I
 ```
 
 
-다른 노드[노드2]에서 접속
+다른 노드[노드1]에서 접속
 ```
 $ telnet [노드1의 아이피]
 ```
 해당포트 접속시 실행됨
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img40.JPG" width="700px" height="500px" alt="telnet"></img><br/>
