@@ -38,8 +38,8 @@ $ netstat -nap | grep LISTEN
 
 포트 열기
 ```
-$ sudo iptables -I input 1 -p tcp --dport 9100 -j ACCEPT
-$ sudo iptables -I input 1 -p tcp --dport 9104 -j ACCEPT
+$ sudo iptables -I INPUT 1 -p tcp --dport 9100 -j ACCEPT
+$ sudo iptables -I INPUT 1 -p tcp --dport 9104 -j ACCEPT
 ```
 
 열린 포트 확인

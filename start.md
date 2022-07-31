@@ -233,7 +233,7 @@
     Create > import 클릭
     <br>
      <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img14.JPG" width="500px" height="300px" alt="grafana import1"></img><br/>
-    id 7369 입력 후 Load 버튼 클릭
+    id 7362 입력 후 Load 버튼 클릭
     <br>
     <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img15.JPG" width="500px" height="500px" alt="grafana import2"></img><br/>
 
