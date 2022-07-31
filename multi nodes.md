@@ -56,10 +56,10 @@ $ hostname -I
 ```
 
 
-다른 노드[노드1]에서 접속
+다른 노드[노드1]에서 노드 2와의 통신 확인
 ```
 $ telnet [노드2의 아이피]
 ```
-해당포트 접속시 실행됨
+해당포트 접속시 통신이 잘 이뤄지고있음
 <br>
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img40.jpg" width="700px" height="500px" alt="telnet"></img><br/>
