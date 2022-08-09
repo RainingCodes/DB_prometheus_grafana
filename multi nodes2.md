@@ -1,6 +1,6 @@
 # 목표 환경
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img46.JPG" width="1000px" height="500px" alt="goal"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img46.jpg" width="1000px" height="500px" alt="goal"></img><br/>
 
  * Node1에서는 Node2, Node3 둘 다 monitoring 할 수 있는 화면에 접근이 가능 
    - (<a href="https://github.com/RainingCodes/mysql_performance_schema/blob/main/multi%20nodes.md">multi nodes</a>)에서 구성
