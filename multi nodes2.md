@@ -31,5 +31,26 @@
   - 참고 사이트 : https://grafana.com/docs/grafana/latest/variables/filter-variables-with-regex/
   <br>
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img52.JPG" width="800px" height="600px" alt="dashboard setting3"></img><br/>
- * Dashboard 별 Permission 설정 
+
+## Dashboard 별 Permission 설정 
   (https://grafana.com/docs/grafana/next/administration/user-management/manage-dashboard-permissions/) --> User 별로 권한 설정할 수 있음
+ 
+ * [node1]에서 user 초대
+   - 톱니바퀴(Configuration) > Users click 
+  <br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img62.JPG" width="1000px" height="900px" alt="user"></img><br/>  
+
+   - Invite Button click
+<br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img63.JPG" width="1000px" height="900px" alt="user2"></img><br/> 
+   - User 정보 입력 후 Submit Button click
+  <br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img64.JPG" width="1000px" height="900px" alt="user3"></img><br/> 
+
+ * dashboard 별 권한 설정
+   - dashboard 연 후 상단에 있는 톱니바퀴(Dashboard settings) 모양 click
+    <br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img65.JPG" width="1000px" height="900px" alt="dashboard permission"></img><br/> 
+   - Permissions 탭에서 Add a permission을 통해 권한을 user 별 추가할 수 있음
+  <br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img66.JPG" width="1000px" height="900px" alt="dashboard permission2"></img><br/> 
