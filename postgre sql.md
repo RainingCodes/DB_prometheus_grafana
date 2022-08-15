@@ -64,7 +64,7 @@ $ ./postgres_exporter
  - job_name : 'pgexporter'
         scrape_interval : 5s
         static_configs:
-      - targets: ['[본인 컴퓨터 ip]:9100']
+      - targets: ['[본인 컴퓨터 ip]:9187']
 ```
 <br>
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img56.JPG" width="500px" height="50px" alt="prometheus.yml"></img><br/>
