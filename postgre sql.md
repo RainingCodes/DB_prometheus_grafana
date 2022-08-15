@@ -5,7 +5,7 @@
  * postgresql 설치 
 ```
 $ sudo apt-get update
-$ sudo apt-get install
+$ sudo apt-get install postgresql postgresql-contrib
 ```
 
  * postgres 기본 계정, postgresql 관리 계정 : postgres (기본 생성) <br>
