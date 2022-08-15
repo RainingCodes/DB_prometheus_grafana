@@ -61,7 +61,7 @@ $ ./postgres_exporter
  * prometheus.yml에 등록
  ```
  $ vi prometheus.yml
- - job_name : 'node_exporter'
+ - job_name : 'pgexporter'
         scrape_interval : 5s
         static_configs:
       - targets: ['[본인 컴퓨터 ip]:9100']
