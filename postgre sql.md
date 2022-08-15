@@ -67,7 +67,7 @@ $ ./postgres_exporter
       - targets: ['[본인 컴퓨터 ip]:9100']
 ```
 <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img56.JPG" width="1000px" height="900px" alt="prometheus.yml"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img56.JPG" width="500px" height="50px" alt="prometheus.yml"></img><br/>
 
  * prometheus 실행 후 웹으로 localhost:9090 접속 Status > Targets
   <br>
