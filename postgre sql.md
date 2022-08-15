@@ -81,3 +81,5 @@ $ ./postgres_exporter
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img59.JPG" width="1000px" height="900px" alt="grafana2"></img><br/>
  <br>
 <img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img60.JPG" width="1000px" height="900px" alt="grafana3"></img><br/>
+ <br>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img61.JPG" width="1000px" height="900px" alt="grafana4"></img><br/>
