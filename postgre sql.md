@@ -14,7 +14,7 @@ $ sudo apt-get install postgresql postgresql-contrib
 ```
 $ sudo -i -u postgres
 postgres $ createuser --interactive
-postgres $
+postgres $ ceatedb node1
 ```
  * 실행 화면(postgresql version 14.4)
 <br>
