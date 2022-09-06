@@ -3,7 +3,7 @@
 ## 오류 없이 실행하기
 * postgres exporter 실행 후 나타나는 error
  <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img67.JPG" width="700px" height="300px" alt="postgres exporter"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img67.JPG" width="900px" height="300px" alt="postgres exporter"></img><br/>
 
     - https://github.com/prometheus-community/postgres_exporter 의 설명을 주로 참고
     - postgres_exporter.yml 파일이 없어서 error 발생
@@ -36,4 +36,3 @@
   ```
   $ sudo -u postgres DATA_SOURCE_NAME="user=postgres host=/var/run/postgresql/ sslmode=disable" ./postgres_exporter --extend.query-path queries.yaml
   ```
-  
