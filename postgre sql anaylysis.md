@@ -60,5 +60,5 @@
   ```
   - 실행 결과 및 확인 
   <br>
-<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img69.JPG" width="1000px" height="700px" alt="queries.yaml custom query -> prometheus"></img><img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img70.JPG" width="1000px" height="800px" alt="custom query db"></img><br/>
+<img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img69.JPG" width="700px" height="500px" alt="queries.yaml custom query -> prometheus"></img><img src="https://github.com/RainingCodes/mysql_performance_schema/blob/main/img/img70.JPG" width="1000px" height="800px" alt="custom query db"></img><br/>
   
