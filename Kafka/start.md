@@ -43,7 +43,7 @@
  ```
  $ bin/kafka-topics.sh --describe --topic TEST --bootstrap-server localhost:9092
  ```
- <img src="" width="1000px" height="00px" alt=""></img><br/>
+ <img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img2.png" width="1000px" height="800px" alt="topic detail"></img><br/>
   
 
 ## STEP4 : TOPIC에 EVENTS 작성
