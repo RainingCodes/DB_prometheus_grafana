@@ -58,11 +58,12 @@
  > [Ctrl+C] 
 ```
 
+
 ## STEP5 : 이벤트 읽기
 * TEST topic으로 온 events 읽기
 * 멈출 때 Ctrl + c 를 눌러 종료 가능
 ```
 $ bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092
 ```
- <img src="" width="500px" height="400px" alt=""></img><br/>
+ <img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img3.png" width="1000px" height="800px" alt="writing & reading events"></img><br/>
   
