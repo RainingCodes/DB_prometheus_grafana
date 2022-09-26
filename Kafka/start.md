@@ -37,13 +37,13 @@
 
  * kafka-topics.sh를 실행할 때 arguments를 주지 않으면 사용법을 표시함
 
-<img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img1.png" width="500px" height="300px" alt="kafka-topics.sh no args"></img><br/>
+<img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img1.png" width="1000px" height="800px" alt="kafka-topics.sh no args"></img><br/>
   
  * 생성된 topic 상세 정보 확인
  ```
  $ bin/kafka-topics.sh --describe --topic TEST --bootstrap-server localhost:9092
  ```
- <img src="" width="500px" height="400px" alt=""></img><br/>
+ <img src="" width="1000px" height="00px" alt=""></img><br/>
   
 
 ## STEP4 : TOPIC에 EVENTS 작성
