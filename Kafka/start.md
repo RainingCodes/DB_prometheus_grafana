@@ -20,7 +20,7 @@
 2. 새 터미널을 열어 kafka server 실행
  ```
  $ cd kafka_2.13-3.2.1
- $ bin/kafka-server-start.sh config/server.properies
+ $ bin/kafka-server-start.sh config/server.properties
  ```
 
 ## STEP3 : TOPIC 생성
