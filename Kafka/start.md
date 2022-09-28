@@ -65,5 +65,5 @@
 ```
 $ bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092
 ```
- <img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img3.png" width="1000px" height="800px" alt="writing & reading events"></img><br/>
+ <img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img3.png" width="600px" height="300px" alt="writing & reading events"></img><br/>
   
