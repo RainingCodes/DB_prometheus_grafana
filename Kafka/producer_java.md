@@ -25,11 +25,14 @@ $ ./eclipse-insi
 * Create a project...
   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img6.png" width="1000px" height="800px" alt="maven1"></img><br/>
 * Maven>Maven Project, Next
-  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img7.png" width="1000px" height="800px" alt="maven2"></img><br/>
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img7.png" width="500px" height="700px" alt="maven2"></img><br/>
 * Use default Workspace location, Next
 * org.apache.tapestry / quickstart 선택
-* Group Id : kafkaProducer, Artifact Id : producer, Next
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img8.png" width="1000px" height="800px" alt="maven3"></img><br/>
+* Group Id : kafkaProducer, Artifact Id : producer, Finish
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img9.png" width="1000px" height="800px" alt="maven4"></img><br/>
 * Console창에 Y 입력 후 Enter
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img10.png" width="1000px" height="800px" alt="maven5"></img><br/>
 * https://kafka.apache.org/documentation/#apis 를 참고해서 pom.xml에 추가
   ```
   <dependency>
