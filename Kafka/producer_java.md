@@ -101,4 +101,4 @@ for(int i = 0; i < 5; i++) {
 $ bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092
 ```
 
-<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img17.png" width="400px" height="50px" alt="producer.java6"><br/> 
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img16.png" width="400px" height="50px" alt="producer.java6"><br/> 
