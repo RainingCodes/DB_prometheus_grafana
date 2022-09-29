@@ -51,6 +51,7 @@ $ ./eclipse-insi
 	<version>3.2.1</version>
   </dependency>
   ```
+    <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img11.png" width="1000px" height="800px" alt="maven6"></img><br/>
 
 ## STEP 4 Producer.java
 ```
