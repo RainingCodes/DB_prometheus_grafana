@@ -54,11 +54,51 @@ $ ./eclipse-insi
     <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img11.png" width="1000px" height="800px" alt="maven6"></img><br/>
 
 ## STEP 4 Producer.java
+ * Topic은 이미 만들어진 상태라고 가정 (<a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step3--topic-%EC%83%9D%EC%84%B1">topic 생성</a>)
  * producer/src/test/java 우클릭 > New > Class 클릭
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img12.JPG" width="300px" height="200px" alt="producer.java1"></img><br/>
- * package 선택 후 Name : Producer 입력
+
+ * package 선택 후 Name : Producer 입력, main 함수 자동 완성 click
  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img13.JPG" width="300px" height="500px" alt="producer.java2"></img><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img14.JPG" width="300px" height="500px" alt="producer.java3"></img><br/> 
+ 
+ * 5개의 랜덤 숫자를 전송하는 Producer 프로그램 작성
 ```
+//static 변수 선언
+private static final String TOPIC_NAME = "TEST"; 
+
+//main 함수 부분, throws InterruptedException 추가 필요
+Random random = new Random();
+        
+Properties prop = new Properties();
+prop.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+prop.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+prop.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+ 
+
+String message = null;
+
+// producer 생성
+KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);
+
+// sending message 5 times 
+for(int i = 0; i < 5; i++) {
+
+      message = Integer.toString(random.nextInt(100)); // 1~100 중 랜덤숫자
+      producer.send(new ProducerRecord<String,String>(TOPIC_NAME, message));
+      System.out.println("message sent from Producer.java : " + message);
+      Thread.sleep(1000); // 1초
+
+}
 ```
 
+ * 실행화면
+ <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
+
+
 ## STEP 5 message 확인
+* kafka도 켜 두어야 함 (<a src="bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092"> kafka 실행</a>)
+```
+$ bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092
+```
+
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img17.png" width="400px" height="50px" alt="producer.java6"><br/> 
