@@ -54,6 +54,10 @@ $ ./eclipse-insi
     <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img11.png" width="1000px" height="800px" alt="maven6"></img><br/>
 
 ## STEP 4 Producer.java
+ * producer/src/test/java 우클릭 > New > Class 클릭
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img12.JPG" width="300px" height="200px" alt="producer.java1"></img><br/>
+ * package 선택 후 Name : Producer 입력
+ <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img13.JPG" width="300px" height="500px" alt="producer.java2"></img><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img14.JPG" width="300px" height="500px" alt="producer.java3"></img><br/> 
 ```
 ```
 
