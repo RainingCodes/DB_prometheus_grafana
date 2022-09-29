@@ -10,7 +10,7 @@ $ cd eclipse-inst.ini
 $ ./eclipse-insi
 ```
  * Eclipse IDE for Java Developers 선택후 설치 
-   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img4.png" width="1000px" height="800px" alt="eclipse 1"></img><br/>
+   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img4.png" width="300px" height="500px" alt="eclipse 1"></img><br/>
  * eclipse란 폴더가 생기며 이동후 실행
   ```
   $ cd ~/eclipse/java-2022-09/eclipse
@@ -22,9 +22,10 @@ $ ./eclipse-insi
 ## STEP 3 maven project 만들기
 * https://bong-sik.tistory.com/5 참고
 * 처음에 나오는 Welcome 창은 없앰
-  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img6.png" width="1000px" height="800px" alt="maven1"></img><br/>
 * Create a project...
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img6.png" width="1000px" height="800px" alt="maven1"></img><br/>
 * Maven>Maven Project, Next
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img7.png" width="1000px" height="800px" alt="maven2"></img><br/>
 * Use default Workspace location, Next
 * org.apache.tapestry / quickstart 선택
 * Group Id : kafkaProducer, Artifact Id : producer, Next
