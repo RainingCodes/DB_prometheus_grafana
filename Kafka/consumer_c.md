@@ -33,4 +33,4 @@ $ sudo make install
     $ ./consumer 0 test-consumer-group TEST
     ```
   * 실행화면
-<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img16.JPG" width="500px" height="150px" alt="producer.java6"><br/> 
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img17.JPG" width="500px" height="150px" alt="consumer.c"><br/> 
