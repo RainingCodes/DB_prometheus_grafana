@@ -91,7 +91,50 @@ for(int i = 0; i < 5; i++) {
 }
 ```
 
- * 실행화면
+## STEP 4-2 Producer.java version2
+  * TEST, TEST2 두 토픽에 각각 랜덤한 숫자 5개를 생성하는 프로그램 작성
+  ```
+package kafkaProducer.producer;
+
+import java.util.Properties;
+import java.util.Random;
+
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.common.serialization.StringSerializer;
+
+public class Producer {
+	private static final String[] TOPIC_NAMES = {"TEST", "TEST2"}; 
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		Random random = new Random();
+        
+        Properties prop = new Properties();
+        prop.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        prop.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+        prop.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+ 
+        String message = null;
+
+        // producer 생성
+        KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);
+
+        // sending message 5 times 
+        for (int i = 0; i < TOPIC_NAMES.length; i++) {
+        	for(int j = 0; j < 5; j++) {
+                message = Integer.toString(random.nextInt(100)); // 1~100 중 랜덤숫자
+                producer.send(new ProducerRecord<String,String>(TOPIC_NAMES[i], message));
+                System.out.println("message sent from Producer.java : " + message + ", TOPIC : " + TOPIC_NAMES[i]);
+                Thread.sleep(1000); // 1초
+            }
+        }
+        
+	}
+}
+  ```
+  
+  * 실행화면
  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
 
 
