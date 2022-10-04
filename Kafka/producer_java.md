@@ -90,6 +90,8 @@ for(int i = 0; i < 5; i++) {
 
 }
 ```
+  * 실행화면
+ <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
 
 ## STEP 4-2 Producer.java version2
   * TEST, TEST2 두 토픽에 각각 랜덤한 숫자 5개를 생성하는 프로그램 작성
@@ -133,9 +135,8 @@ public class Producer {
 	}
 }
   ```
-  
-  * 실행화면
- <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
+
+
 
 
 ## STEP 5 message 확인
