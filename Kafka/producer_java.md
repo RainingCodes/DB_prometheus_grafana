@@ -90,6 +90,8 @@ for(int i = 0; i < 5; i++) {
 
 }
 ```
+파일 <a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/Producer.java">Producer.java</a>
+
   * 실행화면
  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
 
