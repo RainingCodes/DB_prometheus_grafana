@@ -68,4 +68,7 @@ $ sudo make install
   ```
 
   * 실행
+  ```
+  $ ./consumer 0 test-consumer-group TEST TEST2
+  ```
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img19.JPG" width="1000px" height="300px" alt="producer, consumer, postgresql"><br/> 
