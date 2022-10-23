@@ -43,7 +43,7 @@ $ make
 ```
 $ ./dbgen
 ```
-<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img23.JPG" width="800px" height="500px" alt="dbgen execution"><br/> 
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img23.JPG" width="800px" height="300px" alt="dbgen execution"><br/> 
 - 실행 후에는 여러 테이블 데이터들(supplier.tbl, customer.tbl, orders.tbl, lineitem.tbl)이 생김 우리가 주목할 것은 lineitem.tbl
 
 ## postgresql에 lineitem table 생성 
