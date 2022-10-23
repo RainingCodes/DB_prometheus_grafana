@@ -88,4 +88,29 @@ $ ./dbgen
   ```
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img24.JPG" width="800px" height="500px" alt="lineitem table creation with postgresql"><br/> 
 
-## producer.java로 lineitem.tbl을 한줄씩 전송
+## Kafka Setting
+- zookeeper 실행 (새 터미널)
+```
+$ cd ~/kafka_2.13-3.3.0
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+- kafka 실행 (새 터미널)
+```
+$ cd ~/kafka_2.13-3.3.0
+$ bin/kafka-server-start.sh config/server.properties
+```
+- topic 생성 (새 터미널)
+```
+$ cd ~/kafka_2.13-3.3.0
+$ bin/kafka-topics.sh --create --topic LINEITEM --bootstrap-server localhost:9092
+```
+- topic 생성 확인 (바로 위 터미널)
+```
+$ bin/kafka-topics.sh --describe --topic LINEITEM --bootstrap-server localhost:9092
+```
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img25.JPG" width="800px" height="200px" alt="topic creation"><br/>
+
+## Producer.java
+<a src="">Producer.java</a>
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img24.JPG" width="800px" height="500px" alt="lineitem table creation with postgresql"><br/> 
+<a></a>
