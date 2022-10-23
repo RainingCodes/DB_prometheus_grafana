@@ -111,10 +111,10 @@ $ bin/kafka-topics.sh --describe --topic LINEITEM --bootstrap-server localhost:9
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img25.JPG" width="800px" height="200px" alt="topic creation"><br/>
 
 ## 6. Producer.java & consumer.c & postgresql(result check)
-<a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/tpc-h_src/Producer.java">Producer.java</a>
+<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/tpc-h_src/Producer.java">Producer.java</a>
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img26.JPG" width="800px" height="500px" alt="Producer.java"><br/> 
 
-<a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/tpc-h_src/consumer.c">consumer.c</a>
+<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/tpc-h_src/consumer.c">consumer.c</a>
 - compile (실행위치 ~/src/c/librdkafka/examples)
 ```
 $ gcc -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I../src consumer.c -o consumer  ../src/librdkafka.a -lm -ldl -lpthread -lrt -lpthread -lrt -lpq
