@@ -54,7 +54,7 @@ $ ./eclipse-insi
     <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img11.png" width="1000px" height="800px" alt="maven6"></img><br/>
 
 ## STEP 4 Producer.java
- * Topic은 이미 만들어진 상태라고 가정 (<a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step3--topic-%EC%83%9D%EC%84%B1">topic 생성</a>)
+ * Topic은 이미 만들어진 상태라고 가정 (<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step3--topic-%EC%83%9D%EC%84%B1">topic 생성</a>)
  * producer/src/test/java 우클릭 > New > Class 클릭
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img12.JPG" width="300px" height="200px" alt="producer.java1"></img><br/>
 
@@ -78,7 +78,7 @@ prop.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.ge
 String message = null;
 
 // producer 생성
-KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);
+KafkaProducer<String, String> producer = new KafkaProdhrefucer<String, String>(prop);
 
 // sending message 5 times 
 for(int i = 0; i < 5; i++) {
@@ -90,7 +90,7 @@ for(int i = 0; i < 5; i++) {
 
 }
 ```
-파일 <a src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/Producer.java">Producer.java</a>
+파일 <a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/Producer.java">Producer.java</a>
 
   * 실행화면
  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
@@ -142,7 +142,9 @@ public class Producer {
 
 
 ## STEP 5 message 확인
-* kafka도 켜 두어야 함 (<a src="bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092"> kafka 실행</a>)
+
+* kafka도 켜 두어야 함 (<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step2--%EC%8B%A4%ED%96%89"> kafka 실행</a>)
+
 ```
 $ bin/kafka-console-consumer.sh --topic TEST --from-beginning --bootstrap-server localhost:9092
 ```
