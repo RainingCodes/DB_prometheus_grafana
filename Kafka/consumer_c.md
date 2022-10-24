@@ -17,7 +17,7 @@ $ sudo make install
 
 ## STEP 2 consumer.c를 컴파일한 consumer 실행시키기
   * zookeeper, kafka 실행한 상태여야 함 <a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step2--%EC%8B%A4%ED%96%89">kafka 실행</a>
-  * eclipse에 작성해둔 producer를 먼저 한 번 실행해야함 이전에 Events를 읽은 적이 있다면 다시 실행해야 함 <a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step2--%EC%8B%A4%ED%96%89">producer.java</a>
+  * eclipse에 작성해둔 producer를 먼저 한 번 실행해야함, PC를 껐다가 다시켰을 경우는 반드시 수행 <a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step2--%EC%8B%A4%ED%96%89">producer.java</a>
   * 예제 consumer를 실행시키면 kafka 메시지를 확인할 수 있음
   * consumer 실행법
     ```
