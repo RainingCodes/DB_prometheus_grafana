@@ -27,7 +27,7 @@
 일부 설명 발췌 <br>
 * Kafka는 분산된 events(records, messages) streaming하는 플랫폼
 * events는 topics를 기준으로 조직되고 저장되며 이는 파일시스템의 폴더와 같다.
-* events --> file / topics --> foler
+* events --> file / topics --> folder
 * events를 생성하기전에 topic을 먼저 만들어야 한다.
 * 새 터미널을 열어 'TEST'라는 토픽을 만들어보자
  ```
