@@ -19,8 +19,8 @@ $ ./eclipse-insi
   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img5.png" width="1000px" height="800px" alt="eclipse 2"></img><br/>
 
 
-## STEP 3 maven project 만들기
-* https://bong-sik.tistory.com/5 참고
+## STEP 2 maven project 만들기
+*  참고
 * 처음에 나오는 Welcome 창은 없앰
 * Create a project...
   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img6.png" width="1000px" height="800px" alt="maven1"></img><br/>
@@ -53,7 +53,7 @@ $ ./eclipse-insi
   ```
     <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img11.png" width="1000px" height="800px" alt="maven6"></img><br/>
 
-## STEP 4 Producer.java
+## STEP 3 Producer.java
  * Topic은 이미 만들어진 상태라고 가정 (<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step3--topic-%EC%83%9D%EC%84%B1">topic 생성</a>)
  * producer/src/test/java 우클릭 > New > Class 클릭
 <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img12.JPG" width="300px" height="200px" alt="producer.java1"></img><br/>
@@ -95,7 +95,7 @@ for(int i = 0; i < 5; i++) {
   * 실행화면
  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/img/img15.JPG" width="1000px" height="800px" alt="producer.java4"><br/>
 
-## STEP 4-2 Producer.java version2
+## STEP 3-2 Producer.java version2
   * TEST, TEST2 두 토픽에 각각 랜덤한 숫자 5개를 생성하는 프로그램 작성
   ```
 package kafkaProducer.producer;
@@ -141,7 +141,7 @@ public class Producer {
 
 
 
-## STEP 5 message 확인
+## STEP 4 message 확인
 
 * kafka도 켜 두어야 함 (<a href="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/Kafka/start.md#step2--%EC%8B%A4%ED%96%89"> kafka 실행</a>)
 
