@@ -5,11 +5,11 @@
     ```
     $ sudo apt purge postgresql postgresql-contrib
     ```
-    <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img73.JPG" width="300px" height="10px" alt="purge postgresql"><br/>
+    <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img73.JPG" width="300px" height="50px" alt="purge postgresql"><br/>
 
 ## 1. source 코드 다운로드 & 컴파일
   * https://www.postgresql.org/ftp/source/v15.1/ 에 접속해서 postgresql-15.1.tar.gz 다운로드
-<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img71.JPG" width="800px" height="50px" alt="source download"><br/>
+<br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img71.JPG" width="800px" height="750px" alt="source download"><br/>
 
   * 압축 해제
   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img74.JPG" width="150px" height="100px" alt="tar"><br/>
