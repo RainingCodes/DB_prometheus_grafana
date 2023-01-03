@@ -20,8 +20,25 @@
   $ cd ~/postgresql-15.1
   $ ./configure
   ```
-  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img75.JPG" width="240px" height="200px" alt="configure"><br/>
+ <img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img75.JPG" width="240px" height="200px" alt="configure"><br/>
 
   * error 확인
   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img72.JPG" width="300px" height="100px" alt="first error"><br/>
+
+  * readline 설치
+  ```
+  $ sudo apt install libreadline-dev
+  ``` 
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img72.JPG" width="600px" height="350px" alt="install readline"><br/>
+
+  * configure 후 생기는 두 번째 error 확인
+  ```
+  $ ./configure
+  ```
+   <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img76.JPG" width="600px" height="350px" alt="second error"><br/>
+  * zlib 설치
+  ```
+  $ sudo apt-get install zlib1g-dev
+  ```
+  <br><img src="https://github.com/RainingCodes/Industry-Academic-Cooperation1/blob/main/img/img77.JPG" width="600px" height="350px" alt="install zlib"><br/>
 
